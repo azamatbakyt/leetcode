@@ -1,14 +1,17 @@
 package main;
 
+import solutions.ScoreOfString;
 import solutions.TwoSum;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        TwoSum twoSum = new TwoSum();
+        ScoreOfString scoreOfString = new ScoreOfString();
         System.out.println(
-                Arrays.toString(twoSum.twoSum(new int[]{3, 3}, 6))
+                scoreOfString.scoreOfString(
+                        "zaz"
+                )
         );
     }
 }
