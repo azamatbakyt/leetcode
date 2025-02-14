@@ -1,17 +1,13 @@
 package main;
 
-import solutions.ScoreOfString;
-import solutions.TwoSum;
-
-import java.util.Arrays;
+import solutions.MaximumAchievableNumber;
 
 public class Main {
     public static void main(String[] args) {
-        ScoreOfString scoreOfString = new ScoreOfString();
+        MaximumAchievableNumber maximumAchievableNumber = new MaximumAchievableNumber();
         System.out.println(
-                scoreOfString.scoreOfString(
-                        "zaz"
-                )
+                maximumAchievableNumber.theMaximumAchievableX(3, 2)
+
         );
     }
 }
