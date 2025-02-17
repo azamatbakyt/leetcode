@@ -1,13 +1,14 @@
 package main;
 
-import solutions.MaximumAchievableNumber;
+import solutions.FinalValueOfVariableAfterOperations;
 
 public class Main {
     public static void main(String[] args) {
-        MaximumAchievableNumber maximumAchievableNumber = new MaximumAchievableNumber();
+        FinalValueOfVariableAfterOperations finalValueOfVariableAfterOperations = new FinalValueOfVariableAfterOperations();
         System.out.println(
-                maximumAchievableNumber.theMaximumAchievableX(3, 2)
-
+                finalValueOfVariableAfterOperations.finalValueAfterOperations(
+                        new String[]{"--X","X++","X++"}
+                )
         );
     }
 }
