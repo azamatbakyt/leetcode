@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ConcatenationOfArray array = new ConcatenationOfArray();
+        String answer = new String("255.100.50.0").replaceAll("\\.", "[.]");
         System.out.println(
-                Arrays.toString(array.getConcatenation(new int[]{1, 2, 1}))
+            answer
         );
     }
 }
