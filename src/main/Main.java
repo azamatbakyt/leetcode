@@ -1,14 +1,14 @@
 package main;
 
-import solutions.ConcatenationOfArray;
+import solutions.DivisibleAndNonDivisible;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String answer = new String("255.100.50.0").replaceAll("\\.", "[.]");
+        DivisibleAndNonDivisible divisibleAndNonDivisible = new DivisibleAndNonDivisible();
         System.out.println(
-            answer
+          divisibleAndNonDivisible.differenceOfSums(10, 3)
         );
     }
 }
